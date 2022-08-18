@@ -13,6 +13,10 @@ import com.opensymphony.xwork2.ActionSupport;
 public class TodayWordle extends ActionSupport {
 	private static final long serialVersionUID = 1L;
 	
+	public String index(){
+		return SUCCESS;
+	}
+	
 	public void passWordle() throws Exception{
 		
 		HttpServletResponse response = ServletActionContext.getResponse();
